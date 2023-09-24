@@ -1,0 +1,64 @@
+html, body {
+    font-size: 'Courier New', CoUrier, monospace;
+    letter-spacing: 0.15cm;
+    background-color: #D4B2A7;
+  }
+  
+  #logo{
+    width: 150px;
+    margin: 10px auto 25px auto;
+    padding: 20px
+  }
+  
+  #page{
+    border-style: outset;
+    max-width: 980px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    padding:20px
+    border: 4px double #000;
+    background-color: #EFD3CD;
+    height: 600px;
+  }
+  
+  ul{
+    width: 940px;
+    padding: 15px
+    margin: 0px auto 0px auto;
+    border-top: 3px solid #A695B7;
+    border-bottom: 3px solid #A695B7; 
+    text-align: center;
+  }
+  
+  li{
+    display: inline;
+    margin:0px 5px;
+  
+  }
+  
+  p img {
+    max-width: 50%; /* Make sure the image doesn't exceed its container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any extra space below the image */
+    margin: 0 auto; /* Center the image horizontally */
+    box-shadow: 0 0 50px #7B5C52;
+  }
+  
+  p{
+    text-align: center;
+    width 650px;
+    margin: 10px auto 20px auto;
+    font-weight: normal;
+    color: #A6776A;
+  }
+  
+  a{
+    color: #402F27;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 6px 18px 5px 18px;
+  }
+  
+  a:hover, a.on{
+    color: #70c9c9;
+  }
